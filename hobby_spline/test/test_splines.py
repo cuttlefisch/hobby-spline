@@ -113,3 +113,7 @@ class TestSplines(DiffOutput):
 
         actual = hobby_points(controls_3d, self.hobby_omega, close_loop=False)
         self.assertPointsListsEqual(expected, actual)
+
+
+if __name__ == "__main__":
+    unittest.main()
